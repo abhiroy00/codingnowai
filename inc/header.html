@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Coding Now | Learn AI & Full Stack Development</title>
+  
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="main-header">
+
+  <!-- TOP BAR (offer + call) -->
+  <div class="top-offer-bar">
+    <div class="container topbar-flex">
+      <div class="offer-text">
+         Limited Offer: Get 50% OFF on AI & Full Stack Courses
+      </div>
+      <div class="contact-text">
+        📞 Call Now: <a href="tel:+91 7464099059">+ 91 7464099059</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR (responsive with hamburger) -->
+  <div class="container nav-container">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="../assets/images/logo.jpeg" alt="Coding Now Logo">
+      <!-- using placeholder to ensure no missing image, but logo path can be replaced. 
+           original: ../assets/images/logo.jpeg - we keep a fallback then but for demo I use safe placeholder. 
+           But to respect original design, I'll embed a nice text-based logo if image fails? but better:
+           I'll preserve the original src but also add fallback styling. In real scenario, they have image -->
+    </div>
+
+    <!-- DESKTOP NAVIGATION MENU -->
+    <nav class="nav-menu">
+
+  <div class="nav-item">
+    <a href="#">Home</a>
+  </div>
+
+  <!-- COURSES MEGA MENU -->
+ <div class="nav-item dropdown">
+  <a href="#">
+    Courses <span class="arrow"></span>
+  </a>
+
+  <div class="mega-menu">
+    <div class="mega-content">
+      <div>
+        <h4>AI & Data</h4>
+        <a href="#">Generative AI</a>
+        <a href="#">Agentic AI</a>
+        <a href="#">Prompt Engineering</a>
+        <a href="#">AI Engineering Diploma</a>
+        <a href="#">Data Science</a>
+        <a href="#">Data Analytics</a>
+      </div>
+
+      <div>
+        <h4>Full Stack</h4>
+        <a href="#">AI-Integrated Full Stack</a>
+        <a href="#">Python Full Stack</a>
+        <a href="#">MERN Stack</a>
+        <a href="#">MEAN Stack</a>
+        <a href="#">React Full Stack</a>
+        <a href="#">.NET Full Stack</a>
+        
+      </div>
+
+      <div>
+        <h4>Cloud</h4>
+        <a href="#">AWS Developer Associate</a>
+        <a href="#">AWS Certified Solutions Architect</a>
+        <a href="#">Azure Administrator (AZ-104)</a>
+        <a href="#">Azure Solutions Architect Expert(AZ-305)</a>
+        <a href="#">AI/ML Cloud Engineering</a>
+        <a href="#">Cloud DevOps & Automation</a>
+        <a href="#">Cloud Security & Compliance</a>
+        <a href="#">Google Cloud</a>
+        
+      </div>
+      <div>
+        <h4>Programs</h4>
+        <a href="#">Internship</a>
+        <a href="#">Projects</a>
+      </div>
+      <div>
+        <h4>Cyber Security</h4>
+        <a href="#">Ethical Hacker (C|EH) v13</a>
+        <a href="#">AI/GenAI for Cybersecurity</a>
+        <a href="#">Cloud Security</a>
+        <a href="#">Cyber Law & GRC</a>
+        <a href="#">CISSP</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- ABOUT MEGA MENU -->
+  <div class="nav-item dropdown">
+    <a href="#">About <span class="arrow"></span></a>
+
+    <div class="mega-menu">
+      <div class="mega-content">
+
+        <div>
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#">Our Mission</a>
+          <a href="#">Team</a>
+        </div>
+
+        <div>
+          <h4>Resources</h4>
+          <a href="#">Blog</a>
+          <a href="#">Projects</a>
+          <a href="#">Success Stories</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-item">
+    <a href="#">Projects</a>
+  </div>
+
+      <div class="nav-item dropdown">
+  <a href="#">
+    Services <span class="arrow"></span>
+  </a>
+
+  <div class="mega-menu">
+    <div class="mega-content">
+      <div>
+        <h4>AI & Data</h4>
+        <a href="#">Generative AI</a>
+        <a href="#">Agentic AI</a>
+        <a href="#">Prompt Engineering</a>
+        <a href="#">AI Engineering Diploma</a>
+        <a href="#">Data Science</a>
+        <a href="#">Data Analytics</a>
+      </div>
+
+      <div>
+        <h4>Full Stack</h4>
+        <a href="#">AI-Integrated Full Stack</a>
+        <a href="#">Python Full Stack</a>
+        <a href="#">MERN Stack</a>
+        <a href="#">MEAN Stack</a>
+        <a href="#">React Full Stack</a>
+        <a href="#">.NET Full Stack</a>
+        
+      </div>
+
+      <div>
+        <h4>Cloud</h4>
+        <a href="#">AWS Developer Associate</a>
+        <a href="#">AWS Certified Solutions Architect</a>
+        <a href="#">Azure Administrator (AZ-104)</a>
+        <a href="#">Azure Solutions Architect Expert(AZ-305)</a>
+        <a href="#">AI/ML Cloud Engineering</a>
+        <a href="#">Cloud DevOps & Automation</a>
+        <a href="#">Cloud Security & Compliance</a>
+        <a href="#">Google Cloud</a>
+        
+      </div>
+      <div>
+        <h4>Programs</h4>
+        <a href="#">Internship</a>
+        <a href="#">Projects</a>
+      </div>
+      <div>
+        <h4>Cyber Security</h4>
+        <a href="#">Ethical Hacker (C|EH) v13</a>
+        <a href="#">AI/GenAI for Cybersecurity</a>
+        <a href="#">Cloud Security</a>
+        <a href="#">Cyber Law & GRC</a>
+        <a href="#">CISSP</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="nav-item">
+    <a href="#">Contact</a>
+  </div>
+
+</nav>
+
+    <!-- DESKTOP BUTTONS (visible only on >=992px) -->
+    <div class="nav-actions">
+      <a href="#" class="btn-login">Login</a>
+      <a href="#" class="btn-enroll">Enroll Now</a>
+    </div>
+
+    <!-- MOBILE HAMBURGER ICON -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+      ☰
+    </button>
+  </div>
+</header>
+
+
+
+
+<script>
+  // DOM Elements
+  const menuToggle = document.getElementById('menuToggle');
+  const navMenu = document.getElementById('navMenu');
+  const overlay = document.getElementById('menuOverlay');
+  
+  // Helper to check if mobile menu is active
+  let isMenuOpen = false;
+
+  // Close menu function
+  function closeMenu() {
+    if (navMenu && overlay) {
+      navMenu.classList.remove('active');
+      overlay.classList.remove('active');
+      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+      isMenuOpen = false;
+      document.body.style.overflow = ''; // restore scroll
+    }
+  }
+
+  // Open menu function
+  function openMenu() {
+    if (navMenu && overlay) {
+      navMenu.classList.add('active');
+      overlay.classList.add('active');
+      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'true');
+      isMenuOpen = true;
+      document.body.style.overflow = 'hidden'; // prevent background scroll
+    }
+  }
+
+  // Toggle mobile menu
+  function toggleMenu() {
+    if (navMenu && navMenu.classList.contains('active')) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  }
+
+  // Add mobile drawer buttons only once inside the navMenu for tablets/mobile (<992px)
+  // This is a robust approach: if we are on screen width <992, we ensure that mobile buttons exist.
+  // We also handle resize: add buttons when needed, remove if desktop.
+  function injectMobileDrawerButtons() {
+    if (!navMenu) return;
+    // Remove existing mobile button container if any to avoid duplicates
+    const existingMobileBtns = document.getElementById('mobileDrawerBtns');
+    if (existingMobileBtns) {
+      existingMobileBtns.remove();
+    }
+    
+    // Only inject for responsive widths (max-width: 991px) because at desktop we don't need them inside menu
+    const isMobileView = window.innerWidth <= 991;
+    if (isMobileView) {
+      const buttonContainer = document.createElement('div');
+      buttonContainer.id = 'mobileDrawerBtns';
+      buttonContainer.className = 'mobile-drawer-buttons';
+      buttonContainer.innerHTML = `
+        <a href="#" class="btn-login-mobile">🔑 Login</a>
+        <a href="#" class="btn-enroll-mobile">✨ Enroll Now</a>
+      `;
+      // Append to navMenu BUT make sure we don't duplicate on each resize, but we already removed any previous.
+      navMenu.appendChild(buttonContainer);
+    }
+  }
+
+  // Also handle link clicks to close menu after navigation (UX)
+  function attachMenuLinkClose() {
+    if (!navMenu) return;
+    const links = navMenu.querySelectorAll('a:not(.btn-login-mobile):not(.btn-enroll-mobile)');
+    links.forEach(link => {
+      link.removeEventListener('click', closeMenuOnClick);
+      link.addEventListener('click', closeMenuOnClick);
+    });
+    // also for dynamic buttons if exist
+    const mobileLogin = navMenu.querySelector('.btn-login-mobile');
+    const mobileEnroll = navMenu.querySelector('.btn-enroll-mobile');
+    if (mobileLogin) mobileLogin.addEventListener('click', closeMenuOnClick);
+    if (mobileEnroll) mobileEnroll.addEventListener('click', closeMenuOnClick);
+  }
+  
+  function closeMenuOnClick(e) {
+    // we allow default navigation, but close menu for better UX
+    closeMenu();
+    // let the link work naturally
+  }
+
+  // Helper on resize: re-inject / remove buttons and adjust responsiveness and close menu if needed
+  function handleResize() {
+    // If menu is open and window gets larger than 991, we force close menu to avoid layout shift.
+    if (window.innerWidth > 991 && navMenu && navMenu.classList.contains('active')) {
+      closeMenu();
+    }
+    // Inject or remove drawer buttons based on width
+    injectMobileDrawerButtons();
+    attachMenuLinkClose(); // reattach close events after content updated
+  }
+
+  // Event listeners for toggle and overlay
+  if (menuToggle) {
+    menuToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleMenu();
+    });
+  }
+
+  if (overlay) {
+    overlay.addEventListener('click', () => {
+      closeMenu();
+    });
+  }
+
+  // Prevent window scroll when menu opening already controlled by body overflow.
+  // Also close on escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && isMenuOpen) {
+      closeMenu();
+    }
+  });
+
+  // Ensure that clicking on a link inside menu closes it.
+  function setupDynamicObservers() {
+    injectMobileDrawerButtons();
+    attachMenuLinkClose();
+  }
+
+  // Initial setup
+  setupDynamicObservers();
+  window.addEventListener('resize', () => {
+    handleResize();
+  });
+
+  // small mutation observer to catch any dynamic changes (if later needed)
+  const observer = new MutationObserver(() => {
+    attachMenuLinkClose();
+  });
+  if (navMenu) observer.observe(navMenu, { childList: true, subtree: true });
+  
+  // handle initial orientation and adjust
+  setTimeout(() => {
+    injectMobileDrawerButtons();
+    attachMenuLinkClose();
+  }, 10);
+  
+  // For touch devices: also ensure no conflicts
+  // ALSO need to fix original image if 404, use inline fallback? but it respects original HTML logo path. 
+  // Since we cannot guarantee the logo path but it's okay, shows alt as per browser. For demo we use a reliable placeholder.
+  // However to preserve original "logo.jpeg" placeholder, we check and handle if image fails:
+  const logoImg = document.querySelector('.logo img');
+  if (logoImg) {
+    logoImg.onerror = function() {
+      if (!this.src.includes('placehold.co')) {
+        this.src = 'https://placehold.co/140x70/1e3a8a/white?text=CodingNow';
+      }
+    };
+    // If original src is empty or relative, still fine.
+    if (logoImg.src && logoImg.src.indexOf('logo.jpeg') !== -1 && !logoImg.complete) {
+      // use as is, but fallback works.
+    }
+  }
+
+ 
+  document.querySelectorAll(".dropdown > a").forEach(item => {
+    item.addEventListener("click", function(e) {
+      if (window.innerWidth < 992) {
+        e.preventDefault();
+        this.parentElement.classList.toggle("active");
+      }
+    });
+  });
+ 
+  document.querySelectorAll(".dropdown > a").forEach(item => {
+    item.addEventListener("click", function(e) {
+      if (window.innerWidth < 992) {
+        e.preventDefault();
+        this.parentElement.classList.toggle("active");
+      }
+    });
+  });
+
+
+</script>
+</body>
+</html>

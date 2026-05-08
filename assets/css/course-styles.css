@@ -246,7 +246,7 @@ BUTTONS
 HERO SECTION
 ========================================== */
 .hero {
-    background-image: linear-gradient(rgba(6, 28, 89, 0.14), rgba(6, 28, 89, 0.23)), url('https://www.icertglobal.com/images/course-page6.webp');
+    background-image: linear-gradient( rgba(6, 8, 11, 0.648), rgba(6, 28, 89, 0.456)), url('https://lh3.googleusercontent.com/pw/AP1GczNDDWvaG--vSDAdb8hOtxcCiI8q7Xdw-dCMUlFG_uGiPlBYX6EWRMryN2VrGgBFfUqVwQQxqVkfFXfQkzDhqUJim5q7BgDVrozXJrw4uFmdETvP0QkvSOiglXJaifT588vGCQKPJ-Q5rJPVj9RQEupY=w1060-h470-s-no-gm');
     background-size: cover;
     background-position: center center;
     color: var(--bs-white);
